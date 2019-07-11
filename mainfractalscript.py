@@ -19,8 +19,6 @@ def genmadelbrot(WIDTH, HEIGHT):
             xsquare = 0
             ysquare = 0
             zsquare = 0
-            rsquare = 0
-            isquare = 0
             iteration = 0
             max_iteration = 1000
 
@@ -31,8 +29,8 @@ def genmadelbrot(WIDTH, HEIGHT):
                 ysquare = b*b
                 zsquare = (a + b) * (a + b)
                 iteration += 1
-                if xsquare + ysquare < 4:
-                    screen.set_at((x,y), (255,0,0))
+            if xsquare + ysquare < 4:
+                screen.set_at((x,y), (255,0,0))
         print ("{0:.0%}".format(x / WIDTH))
 
 
