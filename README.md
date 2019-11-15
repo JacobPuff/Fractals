@@ -1,2 +1,2 @@
 # Fractals
-Currently just trying to draw a mandelbrot
+Draws a mandelbrot. I need to speed it up though.
